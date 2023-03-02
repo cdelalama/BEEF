@@ -1,0 +1,13 @@
+Come up with a stupid and very creative startup idea.
+Instructions:
+-Give the answer in JSON format, with keypair values.
+-For each startup, Give a 'startup_name', a 'business_model', and an 'explanation'.
+-The business models' must be inspired by pirate culture.
+-Make sure the explanation is inspired by the pirate culture.
+The following JSON is an example of the format I need:
+{
+  "startup_name": "A name",
+  "business_model": "a Bussines model",
+  "explanation": "An explanation"
+}
+Provide the JSON:

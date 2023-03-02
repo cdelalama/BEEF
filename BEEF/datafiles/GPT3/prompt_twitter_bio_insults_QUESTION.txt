@@ -1,0 +1,15 @@
+Come up with 10 creative and funny insults that relates to this twitter bio. 
+Rules:
+- Give the answer in a JSON format where the first key will be 'TWITTER_INSULT_' and the second key will be the insult itself.
+- Make it fun and creative.
+- Use pirate language
+- Give the answer in a JSON format, with keypair values.
+- each property has to start with 'TWITTER_INSULT_' and the insult number.
+- Make sure all insults are different.
+- Make sure that the insults are 100% referred to the twitter bio.
+- Use the following JSON format:
+{
+    "TWITTER_INSULT_1": "",
+}
+
+JSON:

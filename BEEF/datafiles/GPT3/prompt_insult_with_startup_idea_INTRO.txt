@@ -1,0 +1,1 @@
+We are playing a sword insult game like the one in Monkey Island. Given the following startup company:

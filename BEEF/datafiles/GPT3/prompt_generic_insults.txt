@@ -1,0 +1,5 @@
+We are playing a sword insult game like the one in Monkey Island. Come up with 10 insults.
+Rules:
+- Make it fun and creative.
+- Use pirate language
+- Give the answer as a javascript array. Answer in the format ["",""]:

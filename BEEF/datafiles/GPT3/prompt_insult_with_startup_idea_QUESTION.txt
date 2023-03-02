@@ -1,0 +1,13 @@
+Come up with 10 creative and funny insults that relates to this startup.
+Rules:
+- Make it fun and creative.
+- Use pirate language
+- Give the answer in a JSON format, with keypair values.
+- each property has to start with 'STARTUP_INSULT_' and the insult number.
+- Make sure all the insults are based on the startup above and they are all different.
+- Use the following JSON format:
+
+{
+    "STARTUP_INSULT_1": "",
+
+JSON:

@@ -1,0 +1,12 @@
+We are playing a sword insult game like the one in Monkey Island. Come up with 10 insults.
+Rules:
+- Make it fun and creative.
+- Use pirate language
+- Give the answer in a JSON format, with keypair values.
+- each property has to start with 'GENERIC_INSULT_' and the insult number.
+- Use the following JSON format:
+
+{
+    "GENERIC_INSULT_1": "",
+
+JSON:
