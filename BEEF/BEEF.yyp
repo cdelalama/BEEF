@@ -85,6 +85,7 @@
     {"id":{"name":"spr_fghtr_sword_3_a","path":"sprites/spr_fghtr_sword_3_a/spr_fghtr_sword_3_a.yy",},"order":6,},
     {"id":{"name":"__obj_download_master_buffer_hitman__","path":"objects/__obj_download_master_buffer_hitman__/__obj_download_master_buffer_hitman__.yy",},"order":0,},
     {"id":{"name":"XhrResponse","path":"scripts/XhrResponse/XhrResponse.yy",},"order":9,},
+    {"id":{"name":"o_twitter","path":"objects/o_twitter/o_twitter.yy",},"order":0,},
     {"id":{"name":"gpt3Call","path":"scripts/gpt3Call/gpt3Call.yy",},"order":0,},
     {"id":{"name":"spr_image0","path":"sprites/spr_image0/spr_image0.yy",},"order":0,},
     {"id":{"name":"spr_image1","path":"sprites/spr_image1/spr_image1.yy",},"order":1,},
