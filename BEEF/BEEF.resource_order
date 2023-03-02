@@ -55,6 +55,7 @@
     {"name":"XhrDownloadResponse","order":8,"path":"scripts/XhrDownloadResponse/XhrDownloadResponse.yy",},
     {"name":"spr_fghtr_legs_2_a","order":3,"path":"sprites/spr_fghtr_legs_2_a/spr_fghtr_legs_2_a.yy",},
     {"name":"obj_draw","order":5,"path":"objects/obj_draw/obj_draw.yy",},
+    {"name":"o_gpt3_startup_insults","order":1,"path":"objects/o_gpt3_startup_insults/o_gpt3_startup_insults.yy",},
     {"name":"spr_background","order":16,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"obj_options","order":2,"path":"objects/obj_options/obj_options.yy",},
     {"name":"spr_peter_thiel","order":19,"path":"sprites/spr_peter_thiel/spr_peter_thiel.yy",},
