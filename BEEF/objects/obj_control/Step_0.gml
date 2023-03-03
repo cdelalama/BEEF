@@ -26,5 +26,12 @@ if(global.GPT3_generic_insults_received){
 global.var_loose1=global.GPT3_generic_insults[i]
 global.var_loose2=global.GPT3_generic_insults[i+1]
 
+}
+
+if(global.GPT3_startup_insults_received){
+
+
+global.var_mid1=global.GPT3_startup_insults[i]
+global.var_mid2=global.GPT3_startup_insults[i+1]
 
 }
