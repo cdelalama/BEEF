@@ -81,6 +81,8 @@
     {"id":{"name":"o_gpt3_generic_insults","path":"objects/o_gpt3_generic_insults/o_gpt3_generic_insults.yy",},"order":0,},
     {"id":{"name":"spr_back","path":"sprites/spr_back/spr_back.yy",},"order":0,},
     {"id":{"name":"__JSONS_CONFIG__","path":"scripts/__JSONS_CONFIG__/__JSONS_CONFIG__.yy",},"order":0,},
+    {"id":{"name":"twitter_build_bio_insults_prompt","path":"scripts/twitter_build_bio_insults_prompt/twitter_build_bio_insults_prompt.yy",},"order":2,},
+    {"id":{"name":"twitterGetUserTweets","path":"scripts/twitterGetUserTweets/twitterGetUserTweets.yy",},"order":1,},
     {"id":{"name":"DownloadMaster","path":"extensions/DownloadMaster/DownloadMaster.yy",},"order":3,},
     {"id":{"name":"spr_fghtr_sword_3_a","path":"sprites/spr_fghtr_sword_3_a/spr_fghtr_sword_3_a.yy",},"order":6,},
     {"id":{"name":"__obj_download_master_buffer_hitman__","path":"objects/__obj_download_master_buffer_hitman__/__obj_download_master_buffer_hitman__.yy",},"order":0,},
