@@ -55,7 +55,7 @@
   ],
   "isEcma": false,
   "MetaData": {
-    "IDEVersion": "2023.1.0.58",
+    "IDEVersion": "2023.1.1.62",
   },
   "resources": [
     {"id":{"name":"obj_rival","path":"objects/obj_rival/obj_rival.yy",},"order":3,},
@@ -92,6 +92,7 @@
     {"id":{"name":"XhrDownloadResponse","path":"scripts/XhrDownloadResponse/XhrDownloadResponse.yy",},"order":8,},
     {"id":{"name":"JsonStruct","path":"extensions/JsonStruct/JsonStruct.yy",},"order":0,},
     {"id":{"name":"spr_fghtr_legs_2_a","path":"sprites/spr_fghtr_legs_2_a/spr_fghtr_legs_2_a.yy",},"order":3,},
+    {"id":{"name":"gpt3_build_startup_insults_prompt","path":"scripts/gpt3_build_startup_insults_prompt/gpt3_build_startup_insults_prompt.yy",},"order":1,},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":0,},
     {"id":{"name":"fnt_large","path":"fonts/fnt_large/fnt_large.yy",},"order":0,},
     {"id":{"name":"obj_draw","path":"objects/obj_draw/obj_draw.yy",},"order":5,},
@@ -100,6 +101,7 @@
     {"id":{"name":"obj_options","path":"objects/obj_options/obj_options.yy",},"order":2,},
     {"id":{"name":"obj_fghtr","path":"objects/obj_fghtr/obj_fghtr.yy",},"order":0,},
     {"id":{"name":"NFT","path":"extensions/NFT/NFT.yy",},"order":0,},
+    {"id":{"name":"o_gpt3_startup_idea","path":"objects/o_gpt3_startup_idea/o_gpt3_startup_idea.yy",},"order":2,},
     {"id":{"name":"spr_peter_thiel","path":"sprites/spr_peter_thiel/spr_peter_thiel.yy",},"order":19,},
     {"id":{"name":"spr_fghtr_sword_2_a","path":"sprites/spr_fghtr_sword_2_a/spr_fghtr_sword_2_a.yy",},"order":5,},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},"order":3,},

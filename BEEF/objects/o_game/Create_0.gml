@@ -15,6 +15,7 @@ global.GPT3_prompt_startup_idea_insults_INTRO_file = "";
 global.GPT3_prompt_startup_idea_insults_INTRO = "";
 global.GPT3_prompt_startup_idea_insults_QUESTION_file = "";
 global.GPT3_prompt_startup_idea_insults_QUESTION = "";
+global.GPT3_startup_idea_insults = "";
 global.GPT3_startup_idea_insults_received=false;
 
 global.GPT3_startup_idea_insults_get=-1;
