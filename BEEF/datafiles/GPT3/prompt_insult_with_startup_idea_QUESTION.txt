@@ -1,0 +1,6 @@
+Come up with 10 creative and funny insults that relates to this startup.
+Rules:
+- Make it fun and creative.
+- Use pirate language
+- Make sure all the insults are based on the startup above and they are all different.
+- Give the answer as a javascript array. Answer in the format ["",""] where each element is the insult:
