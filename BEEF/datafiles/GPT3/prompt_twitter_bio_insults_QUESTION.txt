@@ -4,4 +4,4 @@ Rules:
 - Use pirate language
 - Make sure all insults are different.
 - Make sure that the insults are 100% referred to the twitter bio.
-- Give the answer as a javascript array. Answer in the format ["",""] where each element is the insult:
+- Give the answer as a javascript array. Answer in the format ["",""] where each element is the insult. Make sure your answer only includes the array:
