@@ -31,8 +31,8 @@ if(ds_map_find_value(async_load, "id") == global.twitter_bio_insults_get){
 		
 		json = async_load[? "result"];
 		var response = json_parse(json)
-		var twitterBioInsults = response.choices[0].text;
-		show_debug_message(twitterBioInsults)
+		global.twitter_bio_insults = response.choices[0].text;
+		show_debug_message(global.twitter_bio_insults)
 		global.twitter_bio_insults_received=true;	
 		
 		global.twitter_bio_insults_get = -1;

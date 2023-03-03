@@ -40,6 +40,7 @@ global.twitter_bio_prompt_insults_INTRO_file = "";
 global.twitter_bio_prompt_insults_INTRO = "";
 global.twitter_bio_prompt_insults_QUESTION_file = "";
 global.twitter_bio_prompt_insults_QUESTION = "";
+global.twitter_bio_insults = "";
 global.twitter_bio_insults_get=-1;
 
 
