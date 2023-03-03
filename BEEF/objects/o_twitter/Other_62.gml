@@ -31,7 +31,8 @@ if(ds_map_find_value(async_load, "id") == global.twitter_bio_insults_get){
 		
 		json = async_load[? "result"];
 		var response = json_parse(json)
-		global.twitter_bio_insults = response.choices[0].text;
+
+		global.twitter_bio_insults =json_parse( response.choices[0].text);
 		show_debug_message(global.twitter_bio_insults)
 		global.twitter_bio_insults_received=true;	
 		
@@ -42,6 +43,17 @@ if(ds_map_find_value(async_load, "id") == global.twitter_bio_insults_get){
         json = "null";
     }
 }
+
+/*
+
+		var result =  json_parse(response.choices[0].text)
+		show_debug_message(result)
+		//show_debug_message( result[3])
+		global.GPT3_generic_insults = result;
+		global.GPT3_generic_insults_received=true;
+		get = -1;
+
+*/
 
 ///Twitter get userID last 10 tweets
 if(ds_map_find_value(async_load, "id") == getTweets){

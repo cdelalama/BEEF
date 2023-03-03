@@ -39,6 +39,7 @@ global.var_mid2=global.GPT3_startup_insults[i+1]
 if (global.twitter_bio_insults_received){
 	
 global.var_win=global.twitter_bio_insults[i]
+
 }
 
 if i>0 {
