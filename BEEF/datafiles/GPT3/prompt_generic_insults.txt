@@ -2,4 +2,4 @@ We are playing a sword insult game like the one in Monkey Island. Come up with 2
 Rules:
 - Make it fun and creative.
 - Use pirate language
-- Give the answer as a javascript array. Answer in the format ["",""]:
+- Give the answer as a javascript array. Answer in the format ["insult1","insult2"]:

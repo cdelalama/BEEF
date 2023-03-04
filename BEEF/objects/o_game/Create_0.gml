@@ -49,7 +49,9 @@ global.twitter_bio_insults_get=-1;
 ini_open(fname)
 global.GPT3_API_key = ini_read_string("GPT3", "key", 0);
 global.GPT3_API_url = ini_read_string("GPT3", "url", 0);
+global.GPT3_Chat_API_url =  ini_read_string("GPT3", "urlChat", 0);
 global.GPT3_model = ini_read_string("GPT3", "model", 0);
+global.GPT3_Chat_model = ini_read_string("GPT3", "modelChat", 0);
 global.GPT3_temperature = ini_read_real("GPT3", "temperature", 0);
 global.GPT3_maxTokens = floor(ini_read_real("GPT3", "max_tokens", 0));
 global.GPT3_data_folder = ini_read_string("GPT3", "data_folder", 0);

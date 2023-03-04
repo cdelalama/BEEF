@@ -52,6 +52,7 @@
     {"name":"spr_NPC","order":2,"path":"sprites/spr_NPC/spr_NPC.yy",},
     {"name":"twitter_build_bio_insults_prompt","order":2,"path":"scripts/twitter_build_bio_insults_prompt/twitter_build_bio_insults_prompt.yy",},
     {"name":"twitterGetUserTweets","order":1,"path":"scripts/twitterGetUserTweets/twitterGetUserTweets.yy",},
+    {"name":"gpt3ChatCall","order":2,"path":"scripts/gpt3ChatCall/gpt3ChatCall.yy",},
     {"name":"DownloadMaster","order":3,"path":"extensions/DownloadMaster/DownloadMaster.yy",},
     {"name":"spr_fghtr_sword_3_a","order":6,"path":"sprites/spr_fghtr_sword_3_a/spr_fghtr_sword_3_a.yy",},
     {"name":"XhrResponse","order":9,"path":"scripts/XhrResponse/XhrResponse.yy",},
