@@ -3,4 +3,4 @@ Rules:
 - Make it fun and creative.
 - Use pirate language
 - Make sure all the insults are based on the startup above and they are all different.
-- Give the answer as a javascript array. Answer in the format ["insult1","insult2"]:
+- Write a javascript array in the format ["insult1","insult2"]:
