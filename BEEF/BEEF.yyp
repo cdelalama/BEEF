@@ -54,10 +54,10 @@
   ],
   "isEcma": false,
   "MetaData": {
-    "IDEVersion": "2023.1.0.58",
+    "IDEVersion": "2023.1.1.62",
   },
   "resources": [
-    {"id":{"name":"rm_handle","path":"rooms/rm_handle/rm_handle.yy",},"order":0,},
+    {"id":{"name":"rm_handle","path":"rooms/rm_handle/rm_handle.yy",},"order":3,},
     {"id":{"name":"obj_rival","path":"objects/obj_rival/obj_rival.yy",},"order":3,},
     {"id":{"name":"JsonStructTypeException","path":"scripts/JsonStructTypeException/JsonStructTypeException.yy",},"order":3,},
     {"id":{"name":"fnt_fff_forward","path":"fonts/fnt_fff_forward/fnt_fff_forward.yy",},"order":1,},
@@ -71,7 +71,7 @@
     {"id":{"name":"JsonStructDataType","path":"scripts/JsonStructDataType/JsonStructDataType.yy",},"order":1,},
     {"id":{"name":"JsonStructParseException","path":"scripts/JsonStructParseException/JsonStructParseException.yy",},"order":2,},
     {"id":{"name":"__obj_download_master_daemon__","path":"objects/__obj_download_master_daemon__/__obj_download_master_daemon__.yy",},"order":1,},
-    {"id":{"name":"obj_handle","path":"objects/obj_handle/obj_handle.yy",},"order":0,},
+    {"id":{"name":"obj_handle","path":"objects/obj_handle/obj_handle.yy",},"order":9,},
     {"id":{"name":"MultipartData","path":"scripts/MultipartData/MultipartData.yy",},"order":5,},
     {"id":{"name":"RequestBody","path":"scripts/RequestBody/RequestBody.yy",},"order":6,},
     {"id":{"name":"spr_fghtr_shadow","path":"sprites/spr_fghtr_shadow/spr_fghtr_shadow.yy",},"order":8,},
