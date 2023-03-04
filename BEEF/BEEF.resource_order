@@ -31,6 +31,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"rm_handle","order":3,"path":"rooms/rm_handle/rm_handle.yy",},
     {"name":"obj_rival","order":3,"path":"objects/obj_rival/obj_rival.yy",},
     {"name":"JsonStructTypeException","order":3,"path":"scripts/JsonStructTypeException/JsonStructTypeException.yy",},
     {"name":"fnt_fff_forward","order":1,"path":"fonts/fnt_fff_forward/fnt_fff_forward.yy",},
@@ -41,6 +42,7 @@
     {"name":"JsonStructDataType","order":1,"path":"scripts/JsonStructDataType/JsonStructDataType.yy",},
     {"name":"JsonStructParseException","order":2,"path":"scripts/JsonStructParseException/JsonStructParseException.yy",},
     {"name":"__obj_download_master_daemon__","order":1,"path":"objects/__obj_download_master_daemon__/__obj_download_master_daemon__.yy",},
+    {"name":"obj_handle","order":9,"path":"objects/obj_handle/obj_handle.yy",},
     {"name":"MultipartData","order":5,"path":"scripts/MultipartData/MultipartData.yy",},
     {"name":"RequestBody","order":6,"path":"scripts/RequestBody/RequestBody.yy",},
     {"name":"spr_fghtr_shadow","order":8,"path":"sprites/spr_fghtr_shadow/spr_fghtr_shadow.yy",},
