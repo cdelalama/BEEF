@@ -217,3 +217,4 @@ if var_pos=0{global.var_end=1}
 if var_pos=5{global.var_end=-1}
 
 
+global.var_position=var_pos	

@@ -51,3 +51,5 @@ var_sword_x_rival=x					// X position of the sword for the Rival
 
 var_sword_rot=0						// Rotation of the sword for the Player
 var_sword_rot_rival=0				// Rotation of the sword for the Rival
+
+global.var_position=var_pos			// Global variable to check who wins

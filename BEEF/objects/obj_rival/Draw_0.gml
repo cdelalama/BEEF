@@ -1,6 +1,6 @@
 
 //Select text's color needed
-if global.var_state=2
+if global.var_state=2 and global.var_turn_count<5
 {
 draw_set_color(var_color)
 draw_set_font(fnt_fff_forward)
@@ -22,3 +22,9 @@ draw_sprite_ext(spr_back,var_hover,x,y,1,1,0,c_white,1)
 }
 
 //draw_text(x+128,y,var_type)
+
+if global.var_turn_count>=5{
+	
+	if global.var_position<=2 {draw_text_ext(x,y,"You won!",8,288)}
+	if global.var_position>2 {draw_text_ext(x,y,"You loose!",8,288)}
+	}
