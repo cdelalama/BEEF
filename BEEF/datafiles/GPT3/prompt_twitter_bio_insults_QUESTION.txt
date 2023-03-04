@@ -4,4 +4,4 @@ Rules:
 - Use pirate language
 - Make sure all insults are different.
 - Make sure that the insults are 100% referred to the twitter bio.
-- Write a javascript array in the format ["insult1","insult2"]:
+- Write one javascript array in the format ["insult1","insult2", ..., "insult9"]:

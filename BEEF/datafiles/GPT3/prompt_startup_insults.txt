@@ -3,4 +3,4 @@ Rules:
 - Make it fun and creative.
 - Use pirate language
 - Make sure the insults are all related to the startup world: Silicon valley, hackers.
-- Write a javascript array in the format ["insult1","insult2"]:
+- Write one javascript array in the format ["insult1","insult2", ..., "insult23"]:
