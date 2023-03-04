@@ -1,6 +1,6 @@
 
 //Display box and text in "Selected" mode
-if global.var_state=0 and global.var_chosen=0
+if global.var_state=0 and global.var_chosen=0 and global.var_turn_count<5
 {
 global.var_chosen=1
 var_color=c_black

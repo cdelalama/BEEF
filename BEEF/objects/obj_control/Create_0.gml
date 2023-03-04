@@ -60,4 +60,6 @@ global.var_retrigger=0
  global.var_startup_idea_player=""
  global.var_startup_idea_rival=""
  
+ global.var_turn_count=0
+ 
  

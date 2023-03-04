@@ -2,7 +2,7 @@
 randomize()
 
 //If shuffling is triggered and there is at least one option not selected, pick a random one
-if var_trigger=1 and
+if var_trigger=1 and global.var_turn_count<5 and
 (
 global.var_win_selected=0 or 
 global.var_mid1_selected=0 or

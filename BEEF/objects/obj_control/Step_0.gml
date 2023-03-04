@@ -11,12 +11,13 @@ if global.var_retrigger=1
 	var_buffer+=1
 }
 
-if var_buffer>=5
+if var_buffer>=5 and  global.var_turn_count<5
 {
 	i=i+4;
 	j=j+1;
 	global.var_retrigger=0
 	var_buffer=0
+	global.var_turn_count+=1
 }
 
 if(global.GPT3_generic_insults_received){
