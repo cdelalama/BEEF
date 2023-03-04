@@ -9,7 +9,7 @@ if(ds_map_find_value(async_load, "id") == getStartupIdea){
 		show_debug_message("XXXXXXX IN STARTUP IDEA ASYNC XXXXXXXXXXXXXXXX")
 		json = async_load[? "result"];
 		var response = json_parse(json)
-				show_debug_message( response)
+		show_debug_message( response)
 		var result =  json_parse(response.choices[0].text)
 		show_debug_message( result)
 		global.GPT3_startup_idea_name=result.startup_name;
@@ -38,7 +38,7 @@ if(ds_map_find_value(async_load, "id") == global.GPT3_startup_idea_insults_get){
 		
 		json = async_load[? "result"];
 		var response = json_parse(json)
-		//show_debug_message( response)		
+		show_debug_message( response)		
 		var result =  json_parse(response.choices[0].text)
 		show_debug_message(result)
 		global.GPT3_startup_idea_insults = result;

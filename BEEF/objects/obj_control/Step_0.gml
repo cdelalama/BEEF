@@ -54,6 +54,10 @@ global.var_win=global.twitter_bio_insults[j]
 
 if (global.GPT3_startup_idea_insults_received){
 	
+show_debug_message("XXX--- STARTUP IDEA INSULTS RECEIVED ---XXX");
+show_debug_message(global.GPT3_startup_idea_insults)
+show_debug_message("J:")
+show_debug_message(j)
 global.var_win_r=global.GPT3_startup_idea_insults[j]
 
 }

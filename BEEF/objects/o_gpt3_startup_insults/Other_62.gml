@@ -9,6 +9,7 @@ if(ds_map_find_value(async_load, "id") == getStartupInsults){
 		show_debug_message("XXXXXXX IN STARTUP INSULTS ASYNC XXXXXXXXXXXXXXXX")
 		json = async_load[? "result"];
 		var response = json_parse(json)
+		show_debug_message( json)
 		var result =  json_parse(response.choices[0].text)
 		show_debug_message( result)
 		
