@@ -43,7 +43,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
   ],
   "IncludedFiles": [
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"prompt_generic_insults - Copy.txt","CopyToMask":-1,"filePath":"datafiles/GPT3",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"prompt_generic_insults.txt","CopyToMask":-1,"filePath":"datafiles/GPT3",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"prompt_get_startup_idea.txt","CopyToMask":-1,"filePath":"datafiles/GPT3",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"prompt_insult_with_startup_idea_INTRO.txt","CopyToMask":-1,"filePath":"datafiles/GPT3",},

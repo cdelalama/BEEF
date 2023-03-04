@@ -109,3 +109,13 @@ if var_text=global.var_loose1_r or var_text=global.var_loose2_r
 	}
 
 }
+
+//Use real text each step
+
+if global.var_loose1_selected_r=1{var_text=global.var_loose1_r}
+if global.var_loose2_selected_r=1{var_text=global.var_loose2_r}
+
+if global.var_mid1_selected_r=1{var_text=global.var_mid1_r}
+if global.var_mid2_selected_r=1{var_text=global.var_mid2_r}
+
+if global.var_win_selected_r=1{var_text=global.var_win_r}

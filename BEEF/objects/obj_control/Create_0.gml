@@ -1,4 +1,5 @@
 i = 0;
+j = 0;
 //Text possibilities - Player
 global.var_win="asdf win"
 global.var_mid1="asdf mid1"

@@ -15,7 +15,8 @@ if global.var_retrigger=1
 
 if var_buffer>=5
 {
-	i=i+2;
+	i=i+4;
+	j=j+2
 	global.var_retrigger=0
 	var_buffer=0
 }
@@ -25,6 +26,8 @@ if(global.GPT3_generic_insults_received){
 
 global.var_loose1=global.GPT3_generic_insults[i]
 global.var_loose2=global.GPT3_generic_insults[i+1]
+global.var_loose1_r=global.GPT3_generic_insults[i+2]
+global.var_loose2_r=global.GPT3_generic_insults[i+3]
 
 }
 
@@ -33,12 +36,15 @@ if(global.GPT3_startup_insults_received){
 
 global.var_mid1=global.GPT3_startup_insults[i]
 global.var_mid2=global.GPT3_startup_insults[i+1]
+global.var_mid1_r=global.GPT3_startup_insults[i+2]
+global.var_mid2_r=global.GPT3_startup_insults[i+3]
 
 }
 
 if (global.twitter_bio_insults_received){
 	
-global.var_win=global.twitter_bio_insults[i]
+global.var_win=global.twitter_bio_insults[j]
+global.var_win_r=global.twitter_bio_insults[j+1]
 
 }
 
@@ -46,4 +52,6 @@ if i>0 {
 
 global.var_mid1=global.GPT3_startup_insults[i]
 global.var_mid2=global.GPT3_startup_insults[i+1]
+global.var_mid1_r=global.GPT3_startup_insults[i+2]
+global.var_mid2_r=global.GPT3_startup_insults[i+3]
 }
