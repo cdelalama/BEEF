@@ -7,7 +7,8 @@ if(ds_map_find_value(async_load, "id") == getTwitterBio){
 	{
 		show_debug_message("XXXXXXX IN TWITTER GET BIO ASYNC XXXXXXXXXXXXXXXX")
 		json = async_load[? "result"];
-		var response = json_parse(json)
+		var json_escapefixed = string_replace_all(json, "\\", "\\\\");
+		var response = json_parse(json_escapefixed)
 		show_debug_message(json);
 		show_debug_message(response);
 		var twitterBio = response.data[0].description;
