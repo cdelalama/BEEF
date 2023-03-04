@@ -10,7 +10,7 @@ if(ds_map_find_value(async_load, "id") == getGenericInsults){
 		json = async_load[? "result"];
 		var response = json_parse(json)
 		//show_debug_message( response)
-				show_debug_message("GET: ", getGenericInsults)
+		//show_debug_message("GET: ", getGenericInsults)
 		var result =  json_parse(response.choices[0].text)
 		show_debug_message(result)
 		//show_debug_message( result[3])

@@ -13,6 +13,8 @@ if(ds_map_find_value(async_load, "id") == getStartupInsults){
 		show_debug_message( result)
 		
 		global.GPT3_startup_insults = result;
+		//show_debug_message( "XXXXXGLOBALXXXX",global.GPT3_startup_insults)
+		//show_debug_message( global.GPT3_startup_insults)
 		global.GPT3_startup_insults_received=true;
 		global.getStartupInsults = -1;
 

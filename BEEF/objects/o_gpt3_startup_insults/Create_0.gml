@@ -3,4 +3,4 @@
 getStartupInsults=-1;
 
 
-gegetStartupInsultst = gpt3Call(global.GPT3_prompt_startup_insults, global.GPT3_temperature, global.GPT3_maxTokens);
+getStartupInsults = gpt3Call(global.GPT3_prompt_startup_insults, global.GPT3_temperature, global.GPT3_maxTokens);

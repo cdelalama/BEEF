@@ -58,7 +58,7 @@ global.var_win_r=global.GPT3_startup_idea_insults[j]
 
 }
 
-if i > 1{
+if i > 0{
 
 global.var_mid1=global.GPT3_startup_insults[i]
 global.var_mid2=global.GPT3_startup_insults[i+1]
