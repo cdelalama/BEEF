@@ -2,7 +2,7 @@
 
 
 //If Startup Idea received
-if(ds_map_find_value(async_load, "id") == get){
+if(ds_map_find_value(async_load, "id") == getStartupIdea){
 
 	if (ds_map_find_value(async_load, "status") == 0)
 	{
@@ -21,7 +21,7 @@ if(ds_map_find_value(async_load, "id") == get){
 		show_debug_message( global.GPT3_startup_idea_explanation)
 		
 		global.GPT3_startup_idea_received = true;
-		get = -1;
+		getStartupIdea = -1;
 	}    else
     {
         json = "null";

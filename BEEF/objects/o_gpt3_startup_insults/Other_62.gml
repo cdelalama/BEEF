@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //If Generic Startup Insults
-if(ds_map_find_value(async_load, "id") == get){
+if(ds_map_find_value(async_load, "id") == getStartupInsults){
 
 	if (ds_map_find_value(async_load, "status") == 0)
 	{
@@ -14,7 +14,7 @@ if(ds_map_find_value(async_load, "id") == get){
 		
 		global.GPT3_startup_insults = result;
 		global.GPT3_startup_insults_received=true;
-		global.get = -1;
+		global.getStartupInsults = -1;
 
 	}    else
     {
