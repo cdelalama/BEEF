@@ -3,9 +3,7 @@
 
 if keyboard_check_released(vk_enter)
 {
-	obj_options.var_text=""
-	global.var_erase=1
-	room_restart()
+	game_restart()
 }
 
 if global.var_retrigger=1
@@ -16,7 +14,7 @@ if global.var_retrigger=1
 if var_buffer>=5
 {
 	i=i+4;
-	j=j+2
+	j=j+1;
 	global.var_retrigger=0
 	var_buffer=0
 }
@@ -44,11 +42,22 @@ global.var_mid2_r=global.GPT3_startup_insults[i+3]
 if (global.twitter_bio_insults_received){
 	
 global.var_win=global.twitter_bio_insults[j]
-global.var_win_r=global.twitter_bio_insults[j+1]
 
 }
 
-if i>0 {
+if (global.twitter_bio_insults_received){
+	
+global.var_win=global.twitter_bio_insults[j]
+
+}
+
+if (global.GPT3_startup_idea_insults_received){
+	
+global.var_win_r=global.GPT3_startup_idea_insults[j]
+
+}
+
+if i > 1{
 
 global.var_mid1=global.GPT3_startup_insults[i]
 global.var_mid2=global.GPT3_startup_insults[i+1]
