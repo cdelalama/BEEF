@@ -36,11 +36,11 @@ if(ds_map_find_value(async_load, "id") == global.twitter_bio_insults_get){
 		show_debug_message("XXXXXXX IN TWITTER BIO INSULTS ASYNC XXXXXXXXXXXXXXXX")
 		
 		var json = async_load[? "result"];
-		//show_debug_message(json)
+		show_debug_message(json)
 		//var json_escapefixed = string_replace_all(json, "\\", "\\\\");
 		//show_debug_message(json_escapefixed)
 		var response = json_parse(json)
-
+		show_debug_message(response)
 		global.twitter_bio_insults =json_parse( response.choices[0].text);
 		show_debug_message(global.twitter_bio_insults)
 		global.twitter_bio_insults_received=true;	
