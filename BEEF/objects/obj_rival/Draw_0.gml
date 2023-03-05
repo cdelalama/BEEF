@@ -1,6 +1,6 @@
 
 //Select text's color needed
-if global.var_state=2 and global.var_turn_count<5
+if global.var_state=2 and global.var_turn_count<5 and global.var_position>0 and global.var_position<5
 {
 draw_set_color(var_color)
 draw_set_font(fnt_fff_forward)
