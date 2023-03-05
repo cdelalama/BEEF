@@ -90,7 +90,7 @@ if var_state_counter>=50 {global.var_state=2;var_state_counter=0;draw_set_alpha(
 if global.var_state=2
 {
 //Set color to "Used" mode	
-var_color=c_white
+var_color=c_yellow
 var_hover=1
 //If the best option is selected, do maximum damage to the player
 if var_text=global.var_win_r
