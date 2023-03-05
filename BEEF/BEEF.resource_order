@@ -13,6 +13,7 @@
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Coupa","order":3,"path":"folders/Objects/Coupa.yy",},
     {"name":"GPT3","order":2,"path":"folders/Objects/GPT3.yy",},
+    {"name":"NFT","order":11,"path":"folders/Objects/NFT.yy",},
     {"name":"Random organizer","order":4,"path":"folders/Objects/Random organizer.yy",},
     {"name":"Twitter","order":6,"path":"folders/Objects/Twitter.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
@@ -29,7 +30,6 @@
     {"name":"Textbox","order":5,"path":"folders/Sprites/Textbox.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"NFT","order":11,"path":"folders/Objects/NFT.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"rm_handle","order":3,"path":"rooms/rm_handle/rm_handle.yy",},

@@ -34,13 +34,16 @@ global.GPT3_startup_insults_get=-1; //to assign to async calls
  
  ///Twitter///
 global.twitter_bio = "";
+global.TwitterError=false;
 global.twitter_bio_received=false;
+global.twitter_tweets_received=false;
 global.twitter_bio_insults_received=false;
 global.twitter_bio_prompt_insults_INTRO_file = "";
 global.twitter_bio_prompt_insults_INTRO = "";
 global.twitter_bio_prompt_insults_QUESTION_file = "";
 global.twitter_bio_prompt_insults_QUESTION = "";
 global.twitter_bio_insults = "";
+global.tweetTexts=[];
 global.twitter_bio_insults_get=-1;
 
 
