@@ -75,13 +75,9 @@ if(ds_map_find_value(async_load, "id") == getTweets){
 	{
 		
 		show_debug_message("XXXXXXX IN TWITTER GET last 10 Tweets XXXXXXXXXXXXXXXX")
-		var lastTweets=[];
-		//show_debug_message(async_load[? "result"])
-		var json2 = async_load[? "result"];
-		
+		var json2 = async_load[? "result"];		
 		var json2_escapefixed = string_replace_all(json2, "\\", "\\\\");
 		var response = json_parse(json2_escapefixed);
-
 
 		// Loop through each tweet structure and extract the 'text' property
 		show_debug_message(array_length( response.data))

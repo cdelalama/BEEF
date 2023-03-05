@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Random organizer",
+    "path": "folders/Objects/Random organizer.yy",
   },
   "parentObjectId": null,
   "persistent": false,
