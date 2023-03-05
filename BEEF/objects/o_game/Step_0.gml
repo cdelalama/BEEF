@@ -21,7 +21,7 @@ if(global.GPT3_startup_insults_received){
 }
 
 
-if(global.twitter_bio_received){
+if(global.twitter_bio_received && global.twitter_tweets_received){
 	twitter_bio_insults_prompt="";
 	
 	show_debug_message("XXXXXXX IN STEP LOOP -- TWITTER BIO RECEIVED XXXXXXXXXXXXXXXX")
@@ -29,6 +29,8 @@ if(global.twitter_bio_received){
 	show_debug_message(twitter_bio_insults_prompt);
 	global.twitter_bio_insults_get = gpt3Call(twitter_bio_insults_prompt, global.GPT3_temperature, global.GPT3_maxTokens);
 	global.twitter_bio_received=false;
+	global.twitter_tweets_received=false;
+	
 
 }
 
