@@ -1,9 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if keyboard_check_released(vk_enter)
+if keyboard_check_released(vk_f5)
 {
 	game_restart()
+}
+
+if keyboard_check_released(vk_enter) and global.var_end=1
+{
+	room_goto(rm_key)
 }
 
 if global.var_retrigger=1

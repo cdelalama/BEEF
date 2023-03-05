@@ -175,6 +175,7 @@ if var_pose=5
 	var_torso_rival=0
 	var_sword_rival=spr_fghtr_sword_1_a;var_sword_pose_rival=0
 	var_head_rival=spr_fghtr_head_1_a;var_head_pose_rival=0
+	
 	//Flying sword animation
 	if var_sword_rot>-96
 		{
@@ -197,6 +198,7 @@ if var_pose=0
 	var_torso=0
 	var_sword_rival=spr_fghtr_sword_3_a
 	var_head_rival=spr_fghtr_head_2_a;var_head_pose_rival=5
+	
 	//Flying sword animation
 	if var_sword_rot_rival<96
 		{
