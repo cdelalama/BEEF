@@ -23,7 +23,7 @@ draw_sprite_ext(spr_back,var_hover,x,y,1,1,0,c_white,1)
 
 //draw_text(x+128,y,var_type)
 
-if global.var_turn_count>=5{
+if global.var_turn_count>=5 or global.var_position=0 or global.var_position=5{
 	
 	if global.var_position<=2 {draw_text_ext(x,y,"You won! Press Enter to play again",8,288)}
 	if global.var_position>2 {draw_text_ext(x,y,"You loose! Press Enter to play again",8,288)}
