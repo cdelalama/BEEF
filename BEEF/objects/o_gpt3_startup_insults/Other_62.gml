@@ -6,7 +6,7 @@ if(ds_map_find_value(async_load, "id") == getStartupInsults){
 
 	if (ds_map_find_value(async_load, "status") == 0)
 	{
-		show_debug_message("XXXXXXX IN STARTUP INSULTS ASYNC XXXXXXXXXXXXXXXX")
+		show_debug_message("XXXXXXX IN o_gpt3_startup_insults STARTUP INSULTS ASYNC XXXXXXXXXXXXXXXX")
 		json = async_load[? "result"];
 		var response = json_parse(json)
 		show_debug_message( json)

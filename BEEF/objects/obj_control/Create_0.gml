@@ -1,5 +1,6 @@
 i = 0;
 j = 0;
+global.data_processed=false
 //Text possibilities - Player
 global.var_win="asdf win"
 global.var_mid1="asdf mid1"
@@ -14,26 +15,26 @@ global.var_mid2_r="qwerty mid2"
 global.var_loose1_r="qwerty loose1"
 global.var_loose2_r="qwerty loose2"
 
-//Wich options has been selected - Player
+//Which options has been selected - Player
 global.var_win_selected=0
 global.var_mid1_selected=0
 global.var_mid2_selected=0
 global.var_loose1_selected=0
 global.var_loose2_selected=0
 
-//Wich option has been selected - Rival
+//Which option has been selected - Rival
 global.var_win_selected_r=0
 global.var_mid1_selected_r=0
 global.var_mid2_selected_r=0
 global.var_loose1_selected_r=0
 global.var_loose2_selected_r=0
 
-//Wich attack to use - Player
+//Which attack to use - Player
 global.var_attack_high=0
 global.var_attack_mid=0
 global.var_attack_fail=0
 
-//Wich attack to use - Rival
+//Which attack to use - Rival
 global.var_attack_high_rival=0
 global.var_attack_mid_rival=0
 global.var_attack_fail_rival=0

@@ -92,3 +92,22 @@ if global.var_mid1_selected=1 and var_type=1 and global.var_mid1 <> "" {var_text
 if global.var_mid2_selected=1 and var_type=2 and global.var_mid2 <> "" {var_text=global.var_mid2}
 if global.var_loose1_selected=1 and var_type=3 and global.var_loose1 <> "" {var_text=global.var_loose1}
 if global.var_loose2_selected=1 and var_type=4 and global.var_loose2 <> "" {var_text=global.var_loose2}
+
+
+// Add new variables for handling the GPT3_startup_idea_insults case
+// NEW: Add global.var_win_r_selected and var_type=5
+global.var_win_r_selected=0;
+
+// NEW: Add case for var_type=5 and global.var_win_r_selected=0
+if var_type=5 and global.var_win_r_selected=0
+{
+    var_trigger=0;
+    global.var_win_r_selected=1;
+    var_type=5;
+    var_text=global.var_win_r;
+}
+
+
+
+// NEW: Add cases for global.var_win_r_selected and var_type=5
+if global.var_win_r_selected=1 and var_type=5 and  global.var_win_r <> "" {var_text= global.var_win_r;}

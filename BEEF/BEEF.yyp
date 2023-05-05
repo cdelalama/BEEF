@@ -56,7 +56,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"rm_handle","path":"rooms/rm_handle/rm_handle.yy",},},
