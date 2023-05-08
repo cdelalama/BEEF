@@ -8,8 +8,8 @@ draw_text(x,y+16,"Bufficorn's Epic Entrepreneurs Fight")
 draw_text(x,y+48,"You are an entrepeneur. Your startup is:")
 draw_text(x,y+64,global.GPT3_startup_idea_name)
 draw_text(x,y+80,global.GPT3_startup_idea_business_model)
-draw_text(x,y+240,"Insert rival's twitter handle")
-draw_text(x,y+256,global.var_handle)
+draw_text(x,y+160,"Insert rival's twitter handle")
+draw_text(x,y+176,global.var_handle)
 
 	// how many pixels high would we need if we put text at a width of sprite_width
 	totalHeightNeeded=string_width_ext(global.GPT3_startup_idea_explanation, 10, 200);

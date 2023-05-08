@@ -3,4 +3,4 @@
 
 global.var_handle=keyboard_string
 
-if keyboard_check_released(vk_enter){room_goto(rm_coupa)}
+if keyboard_check_released(vk_enter){room_goto(rm_intro)}
